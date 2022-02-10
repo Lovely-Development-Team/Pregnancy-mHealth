@@ -75,6 +75,8 @@ struct ConsentView: View {
                 Text("Please sign using your finger in the box below.")
                 
                 CanvasView(hasDrawing: $hasSigned)
+                    .clipShape(RoundedRectangle(cornerRadius: 5))
+                    .overlay(RoundedRectangle(cornerRadius: 5).strokeBorder().foregroundColor(.black))
                     .frame(maxHeight: 200)
                 
                 Spacer()
