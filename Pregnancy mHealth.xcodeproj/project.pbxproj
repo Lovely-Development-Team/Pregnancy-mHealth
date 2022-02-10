@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16C39B0727B57B5F0059FD76 /* SimpleCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C39B0627B57B5F0059FD76 /* SimpleCanvasView.swift */; };
 		5E5545BF27B2BDBC0080032C /* Pregnancy_mHealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5545BE27B2BDBC0080032C /* Pregnancy_mHealthApp.swift */; };
 		5E5545C127B2BDBC0080032C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5545C027B2BDBC0080032C /* ContentView.swift */; };
 		5E5545C327B2BDBE0080032C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5545C227B2BDBE0080032C /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16C39B0627B57B5F0059FD76 /* SimpleCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCanvasView.swift; sourceTree = "<group>"; };
 		5E5545BB27B2BDBC0080032C /* Pregnancy mHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pregnancy mHealth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5545BE27B2BDBC0080032C /* Pregnancy_mHealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pregnancy_mHealthApp.swift; sourceTree = "<group>"; };
 		5E5545C027B2BDBC0080032C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				5EBF276B27B300DA00095068 /* Survey1.swift */,
 				5EBF276D27B3018100095068 /* Survey2.swift */,
 				5EBF277327B40DF400095068 /* SettingsView.swift */,
+				16C39B0627B57B5F0059FD76 /* SimpleCanvasView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				5EBF276827B2FE1A00095068 /* HomeView.swift in Sources */,
 				5EBF276A27B2FE7300095068 /* SurveyListView.swift in Sources */,
 				5EBF277427B40DF500095068 /* SettingsView.swift in Sources */,
+				16C39B0727B57B5F0059FD76 /* SimpleCanvasView.swift in Sources */,
 				5E5545BF27B2BDBC0080032C /* Pregnancy_mHealthApp.swift in Sources */,
 				5E5545CE27B2D6FE0080032C /* ScreeningView.swift in Sources */,
 				5EBF276E27B3018100095068 /* Survey2.swift in Sources */,

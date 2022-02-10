@@ -74,7 +74,7 @@ struct ConsentView: View {
             VStack(spacing: 30) {
                 Text("Please sign using your finger in the box below.")
                 
-                DrawExample(hasDrawn: $hasSigned)
+                CanvasView(hasDrawing: $hasSigned)
                     .frame(maxHeight: 200)
                 
                 Spacer()
