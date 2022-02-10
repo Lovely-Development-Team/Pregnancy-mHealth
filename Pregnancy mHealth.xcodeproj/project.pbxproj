@@ -11,6 +11,15 @@
 		5E5545C127B2BDBC0080032C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5545C027B2BDBC0080032C /* ContentView.swift */; };
 		5E5545C327B2BDBE0080032C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5545C227B2BDBE0080032C /* Assets.xcassets */; };
 		5E5545C627B2BDBE0080032C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5545C527B2BDBE0080032C /* Preview Assets.xcassets */; };
+		5E5545CE27B2D6FE0080032C /* ScreeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5545CD27B2D6FE0080032C /* ScreeningView.swift */; };
+		5E5545D027B2D7070080032C /* ConsentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5545CF27B2D7070080032C /* ConsentView.swift */; };
+		5E5545D327B2D7D60080032C /* FilledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5545D227B2D7D60080032C /* FilledButton.swift */; };
+		5EBF276827B2FE1A00095068 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBF276727B2FE1A00095068 /* HomeView.swift */; };
+		5EBF276A27B2FE7300095068 /* SurveyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBF276927B2FE7300095068 /* SurveyListView.swift */; };
+		5EBF276C27B300DA00095068 /* Survey1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBF276B27B300DA00095068 /* Survey1.swift */; };
+		5EBF276E27B3018100095068 /* Survey2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBF276D27B3018100095068 /* Survey2.swift */; };
+		5EBF277427B40DF500095068 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBF277327B40DF400095068 /* SettingsView.swift */; };
+		5EBF277627B4825D00095068 /* TermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBF277527B4825D00095068 /* TermsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		5E5545C027B2BDBC0080032C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5E5545C227B2BDBE0080032C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E5545C527B2BDBE0080032C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E5545CD27B2D6FE0080032C /* ScreeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreeningView.swift; sourceTree = "<group>"; };
+		5E5545CF27B2D7070080032C /* ConsentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentView.swift; sourceTree = "<group>"; };
+		5E5545D227B2D7D60080032C /* FilledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButton.swift; sourceTree = "<group>"; };
+		5EBF276727B2FE1A00095068 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5EBF276927B2FE7300095068 /* SurveyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyListView.swift; sourceTree = "<group>"; };
+		5EBF276B27B300DA00095068 /* Survey1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey1.swift; sourceTree = "<group>"; };
+		5EBF276D27B3018100095068 /* Survey2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey2.swift; sourceTree = "<group>"; };
+		5EBF277327B40DF400095068 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5EBF277527B4825D00095068 /* TermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,8 @@
 		5E5545BD27B2BDBC0080032C /* Pregnancy mHealth */ = {
 			isa = PBXGroup;
 			children = (
+				5E5545D127B2D7C80080032C /* Extensions */,
+				5E5545CC27B2D6F10080032C /* Views */,
 				5E5545BE27B2BDBC0080032C /* Pregnancy_mHealthApp.swift */,
 				5E5545C027B2BDBC0080032C /* ContentView.swift */,
 				5E5545C227B2BDBE0080032C /* Assets.xcassets */,
@@ -65,6 +85,29 @@
 				5E5545C527B2BDBE0080032C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E5545CC27B2D6F10080032C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E5545CD27B2D6FE0080032C /* ScreeningView.swift */,
+				5EBF277527B4825D00095068 /* TermsView.swift */,
+				5E5545CF27B2D7070080032C /* ConsentView.swift */,
+				5EBF276727B2FE1A00095068 /* HomeView.swift */,
+				5EBF276927B2FE7300095068 /* SurveyListView.swift */,
+				5EBF276B27B300DA00095068 /* Survey1.swift */,
+				5EBF276D27B3018100095068 /* Survey2.swift */,
+				5EBF277327B40DF400095068 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E5545D127B2D7C80080032C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5E5545D227B2D7D60080032C /* FilledButton.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +181,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E5545C127B2BDBC0080032C /* ContentView.swift in Sources */,
+				5E5545D327B2D7D60080032C /* FilledButton.swift in Sources */,
+				5E5545D027B2D7070080032C /* ConsentView.swift in Sources */,
+				5EBF276827B2FE1A00095068 /* HomeView.swift in Sources */,
+				5EBF276A27B2FE7300095068 /* SurveyListView.swift in Sources */,
+				5EBF277427B40DF500095068 /* SettingsView.swift in Sources */,
 				5E5545BF27B2BDBC0080032C /* Pregnancy_mHealthApp.swift in Sources */,
+				5E5545CE27B2D6FE0080032C /* ScreeningView.swift in Sources */,
+				5EBF276E27B3018100095068 /* Survey2.swift in Sources */,
+				5EBF276C27B300DA00095068 /* Survey1.swift in Sources */,
+				5EBF277627B4825D00095068 /* TermsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +248,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -251,6 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -267,16 +321,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_ASSET_PATHS = "\"Pregnancy mHealth/Preview Content\"";
 				DEVELOPMENT_TEAM = 56477RN8FN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pregnancy-mHealth-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "Pregnancy-mHealth-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,16 +353,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_ASSET_PATHS = "\"Pregnancy mHealth/Preview Content\"";
 				DEVELOPMENT_TEAM = 56477RN8FN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pregnancy-mHealth-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "Pregnancy-mHealth-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
